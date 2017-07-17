@@ -1,0 +1,11 @@
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Auth\bin\Debug\PointBlank.Auth.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Auth\bin\Debug\PointBlank.Auth.pdb
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Auth\bin\Debug\MySql.Data.dll
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Auth\obj\x86\Debug\PointBlank.Auth.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Auth\obj\x86\Debug\PointBlank.Auth.pdb
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Auth\obj\x86\Debug\PointBlank.Auth.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Auth\obj\x86\Debug\PointBlank.Auth.pdb
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Auth\bin\Debug\PointBlank.Auth.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Auth\bin\Debug\PointBlank.Auth.pdb
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Auth\bin\Debug\MySql.Data.dll
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Auth\obj\x86\Debug\PointBlank.Auth.csprojResolveAssemblyReference.cache

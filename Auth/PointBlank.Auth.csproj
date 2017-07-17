@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0C9BF386-CDAC-42EC-96AA-8DF148405075}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>PointBlank.Auth</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="MySql.Data">
+      <HintPath>MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="crypt\BitRotate.cs" />
+    <Compile Include="Data\xml\parsers\TutorialParser.cs" />
+    <Compile Include="Managers\DAOM.cs" />
+    <Compile Include="Managers\EquipManager.cs" />
+    <Compile Include="Managers\MedalManager.cs" />
+    <Compile Include="Managers\StatsManager.cs" />
+    <Compile Include="Model\friends\FRIEND_STATE.cs" />
+    <Compile Include="Model\CouponEffect.cs" />
+    <Compile Include="Model\Equip.cs" />
+    <Compile Include="Model\LoginResult.cs" />
+    <Compile Include="Model\Medal.cs" />
+    <Compile Include="Model\PacketOpcode.cs" />
+    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\QuestCardSet.cs" />
+    <Compile Include="Model\Stats.cs" />
+    <Compile Include="Model\Tutorial.cs" />
+    <Compile Include="Network\ReceivePackets\PROTOCOL_UNK_2654_REQ.cs" />
+    <Compile Include="PBServer\data\model\PlayerTemplate.cs" />
+    <Compile Include="PBServer\data\model\PlayerTemplateInventory.cs" />
+    <Compile Include="PBServer\data\model\RankExpModel.cs" />
+    <Compile Include="PBServer\data\xml\holders\PlayerTemplateHolder.cs" />
+    <Compile Include="PBServer\data\xml\holders\RankExpInfoHolder.cs" />
+    <Compile Include="PBServer\data\xml\holders\StartedInventoryItemsHolder.cs" />
+    <Compile Include="PBServer\data\xml\parsers\PlayerTemplateParser.cs" />
+    <Compile Include="PBServer\data\xml\parsers\RankExpInfoParser.cs" />
+    <Compile Include="PBServer\data\xml\parsers\StartedInventoryItemsParser.cs" />
+    <Compile Include="PBServer\data\NB_interface.cs" />
+    <Compile Include="PBServer\data\NetworkBlock.cs" />
+    <Compile Include="PBServer\db\SQLjec.cs" />
+    <Compile Include="PBServer\db\SQL_Block.cs" />
+    <Compile Include="PBServer\managers\ClanManager.cs" />
+    <Compile Include="PBServer\managers\NetRedClass.cs" />
+    <Compile Include="PBServer\managers\StorageManager.cs" />
+    <Compile Include="PBServer\managers\ThreadManager.cs" />
+    <Compile Include="PBServer\model\accounts\AccessLevel.cs" />
+    <Compile Include="PBServer\model\clans\Clan.cs" />
+    <Compile Include="PBServer\model\ENUMS\TeamEnum.cs" />
+    <Compile Include="PBServer\model\players\ItemsModel.cs" />
+    <Compile Include="PBServer\model\players\PlayerEquep.cs" />
+    <Compile Include="PBServer\model\players\PlayerInventory.cs" />
+    <Compile Include="PBServer\model\players\PlayerStats.cs" />
+    <Compile Include="PBServer\model\Frag.cs" />
+    <Compile Include="PBServer\model\FragInfos.cs" />
+    <Compile Include="PBServer\model\ServerVersion.cs" />
+    <Compile Include="PBServer\network\clientpacket\PacketReceive.cs" />
+    <Compile Include="PBServer\network\clientpacket\PROTOCOL_AUTH_FRIEND_INFO_REQ.cs" />
+    <Compile Include="PBServer\network\clientpacket\PROTOCOL_BASE_GET_MYINFO_REQ.cs" />
+    <Compile Include="PBServer\network\clientpacket\PROTOCOL_BASE_LOGIN_REQ.cs" />
+    <Compile Include="PBServer\network\clientpacket\PROTOCOL_BASE_USER_LEAVE_REQ.cs" />
+    <Compile Include="PBServer\network\clientpacket\ResInfo.cs" />
+    <Compile Include="PBServer\network\Game\packets\serverpackets\PROTOCOL_BASE_GET_CLAN_PLAYERS_ACK.cs" />
+    <Compile Include="PBServer\network\Game\packets\serverpackets\PROTOCOL_BASE_GET_SETTINGS_ACK.cs" />
+    <Compile Include="PBServer\network\Login\packets\clientpacket\PROTOCOL_UNK_2575_REQ.cs" />
+    <Compile Include="PBServer\network\Login\packets\clientpacket\PROTOCOL_UNK_2579_REQ.cs" />
+    <Compile Include="PBServer\network\Login\packets\clientpacket\PROTOCOL_UNK_2661_REQ.cs" />
+    <Compile Include="PBServer\network\Login\packets\clientpacket\PROTOCOL_UNK_2666_REQ.cs" />
+    <Compile Include="PBServer\network\Login\packets\clientpacket\PROTOCOL_UNK_2678_REQ.cs" />
+    <Compile Include="PBServer\network\Login\packets\serverpackets\PROTOCOL_BASE_UPDATE_CHANNELS_ACK.cs" />
+    <Compile Include="PBServer\network\Login\packets\serverpackets\PROTOCOL_UNK_2580_ACK.cs" />
+    <Compile Include="PBServer\network\Login\packets\serverpackets\PROTOCOL_UNK_2662_ACK.cs" />
+    <Compile Include="PBServer\network\Login\packets\serverpackets\PROTOCOL_UNK_2667_ACK.cs" />
+    <Compile Include="PBServer\network\Login\packets\serverpackets\PROTOCOL_UNK_2679_ACK.cs" />
+    <Compile Include="PBServer\network\serverpackets\PacketSendAttribute.cs" />
+    <Compile Include="PBServer\network\serverpackets\PROTOCOL_AUTH_FRIEND_INFO_ACK.cs" />
+    <Compile Include="PBServer\network\serverpackets\PROTOCOL_BASE_GET_MYINFO_ACK.cs" />
+    <Compile Include="PBServer\network\serverpackets\PROTOCOL_BASE_LOGIN_ACK.cs" />
+    <Compile Include="PBServer\network\serverpackets\PROTOCOL_BASE_USER_LEAVE_ACK.cs" />
+    <Compile Include="PBServer\network\serverpackets\PROTOCOL_SERVER_MESSAGE_CONNECTIONSUCCESS_ACK.cs" />
+    <Compile Include="PBServer\network\ReceiveBaseLoginPacket.cs" />
+    <Compile Include="PBServer\Network\Utils.cs" />
+    <Compile Include="PBServer\Properties\Resources.cs" />
+    <Compile Include="PBServer\src\commons\data\holders\IHolder.cs" />
+    <Compile Include="PBServer\src\commons\utils\ParamSet.cs" />
+    <Compile Include="PBServer\src\data\model\ChannelInfo.cs" />
+    <Compile Include="PBServer\src\data\model\GameServerInfo.cs" />
+    <Compile Include="PBServer\src\data\xml\holders\ChannelInfoHolder.cs" />
+    <Compile Include="PBServer\src\data\xml\holders\GameServerInfoHolder.cs" />
+    <Compile Include="PBServer\src\data\xml\holders\ItemTemplateHolder.cs" />
+    <Compile Include="PBServer\src\data\xml\parsers\ChannelInfoParser.cs" />
+    <Compile Include="PBServer\src\data\xml\parsers\GameServerInfoParser.cs" />
+    <Compile Include="PBServer\src\data\xml\parsers\ItemTemplateParser.cs" />
+    <Compile Include="PBServer\src\managers\AccountManager.cs" />
+    <Compile Include="PBServer\src\managers\ConfigManager.cs" />
+    <Compile Include="PBServer\src\managers\DaoManager.cs" />
+    <Compile Include="PBServer\src\managers\FriendManager.cs" />
+    <Compile Include="PBServer\src\managers\MessageManager.cs" />
+    <Compile Include="PBServer\src\managers\MissionManager.cs" />
+    <Compile Include="PBServer\src\managers\PlayerManager.cs" />
+    <Compile Include="PBServer\src\managers\ShopInfoManager.cs" />
+    <Compile Include="PBServer\src\managers\TitleManager.cs" />
+    <Compile Include="PBServer\src\model\accounts\Account.cs" />
+    <Compile Include="PBServer\src\model\accounts\ConfigP.cs" />
+    <Compile Include="PBServer\src\model\accounts\Inventory.cs" />
+    <Compile Include="PBServer\src\model\accounts\Message.cs" />
+    <Compile Include="PBServer\src\model\accounts\ShopInfo.cs" />
+    <Compile Include="PBServer\src\model\accounts\Title.cs" />
+    <Compile Include="PBServer\src\model\ENUMS\CHANNEL_TYPE.cs" />
+    <Compile Include="PBServer\src\model\friends\Friends.cs" />
+    <Compile Include="PBServer\src\model\rooms\BOMB_STATE.cs" />
+    <Compile Include="PBServer\src\model\rooms\Room.cs" />
+    <Compile Include="PBServer\src\model\rooms\ROOM_STATE.cs" />
+    <Compile Include="PBServer\src\model\rooms\SLOT.cs" />
+    <Compile Include="PBServer\src\model\rooms\SLOT_STATE.cs" />
+    <Compile Include="PBServer\src\model\CardMission.cs" />
+    <Compile Include="PBServer\src\model\Channel.cs" />
+    <Compile Include="PBServer\src\model\Chat.cs" />
+    <Compile Include="PBServer\src\model\Item.cs" />
+    <Compile Include="PBServer\src\model\Mission.cs" />
+    <Compile Include="PBServer\src\templates\AbstractTemplate.cs" />
+    <Compile Include="PBServer\src\templates\ArmorTemplate.cs" />
+    <Compile Include="PBServer\src\templates\CuponsTemplate.cs" />
+    <Compile Include="PBServer\src\templates\ItemTemplate.cs" />
+    <Compile Include="PBServer\src\templates\NEWShopTemplate.cs" />
+    <Compile Include="PBServer\src\templates\ShopTemplate.cs" />
+    <Compile Include="PBServer\src\templates\WeaponCTemplate.cs" />
+    <Compile Include="PBServer\src\templates\WeaponNHTemplate.cs" />
+    <Compile Include="PBServer\src\templates\WeaponTemplate.cs" />
+    <Compile Include="PBServer\threading\GC.cs" />
+    <Compile Include="PBServer\CLogger.cs" />
+    <Compile Include="PBServer\Config.cs" />
+    <Compile Include="PBServer\ConfigFile.cs" />
+    <Compile Include="PBServer\LoginClient.cs" />
+    <Compile Include="PBServer\LoginClientManager.cs" />
+    <Compile Include="PBServer\NetworkLogin.cs" />
+    <Compile Include="PBServer\SendBaseLoginPacket.cs" />
+    <Compile Include="PointBlank\Auth\Network\ReceivePackets\PROTOCOL_BASE_LOGIN_GARENA_REQ.cs" />
+    <Compile Include="PointBlank\Game\Model\Test.cs" />
+    <Compile Include="PointBlank\Program.cs" />
+    <Compile Include="PointBlank_GSP\Data\Global.cs" />
+    <Compile Include="PointBlank_GSP\Data\GlobalConsole.cs" />
+    <Compile Include="PointBlank_GSP\Data\GlobalDate.cs" />
+    <Compile Include="PointBlank_GSP\Data\GlobalNetwork.cs" />
+    <Compile Include="PointBlank_GSP\Data\GlobalTable.cs" />
+    <Compile Include="PointBlank_GSP\Model\StageId.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

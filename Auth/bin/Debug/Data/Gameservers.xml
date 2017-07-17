@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+	<gameserver name="A" id="1" password="" max_players="600" type="1" ip="127.0.0.1" port="39191" /> <!-- Invisible -->
+	<gameserver name="B" id="2" password="" max_players="600" type="1" ip="127.0.0.1" port="39191" /> <!-- Имеется в основном сервере -->
+	<gameserver name="C" id="3" password="" max_players="600" type="1" ip="127.0.0.1" port="39192" /> <!-- Имеется в основном сервере -->
+</list>

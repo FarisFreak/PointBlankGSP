@@ -1,0 +1,4 @@
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Battle\bin\Debug\PointBlank.Battle.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Battle\bin\Debug\PointBlank.Battle.pdb
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Battle\obj\x86\Debug\PointBlank.Battle.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Battle\obj\x86\Debug\PointBlank.Battle.pdb

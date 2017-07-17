@@ -1,0 +1,19 @@
+7/17/2017 7:05:46 AM - [SQL] IP: 127.0.0.1:3306
+7/17/2017 7:05:46 AM - [SQL] MySQL: establishing connected...
+7/17/2017 7:05:53 AM - [Config] Loaded: 1 configs.
+7/17/2017 7:05:53 AM - [Account] Loaded: 1 accounts.
+7/17/2017 7:05:53 AM - [Clan] Loaded: 1 clans.
+7/17/2017 7:05:53 AM - [Friend] Loaded: 0 friends.
+7/17/2017 7:05:53 AM - [Message] Loaded: 0 messages.
+7/17/2017 7:05:53 AM - [Mission] Loaded: 1 missions.
+7/17/2017 7:05:53 AM - [Shop] Loaded: 590 items.
+7/17/2017 7:05:53 AM - [Template] Loaded: 1 player template(s) info
+7/17/2017 7:05:53 AM - [Server] Loaded: 3 servers.
+7/17/2017 7:05:53 AM - [Inventory] Loaded: 17 initial items.
+7/17/2017 7:05:53 AM - [Rank] Loaded: 56 rank(s) info.
+7/17/2017 7:05:53 AM - [Card] Loaded: 10 cards.
+7/17/2017 7:05:53 AM - [Network] Login Server IP: 127.0.0.1:39190
+7/17/2017 7:06:25 AM - > help
+7/17/2017 7:06:31 AM - > reload shop
+7/17/2017 7:06:40 AM - > sd
+7/17/2017 7:06:40 AM - Invalid command!

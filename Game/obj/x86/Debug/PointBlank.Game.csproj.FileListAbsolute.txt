@@ -1,0 +1,5 @@
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Game\bin\Debug\PointBlank.Game.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Game\bin\Debug\PointBlank.Game.pdb
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Game\bin\Debug\MySql.Data.dll
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Game\obj\x86\Debug\PointBlank.Game.exe
+C:\Users\Faris Hasbi Ridha\Desktop\PBPROJ16JULY2017\Modified\Game\obj\x86\Debug\PointBlank.Game.pdb

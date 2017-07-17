@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+	<channel name="hidden" id="0" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="1" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="2" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="3" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="4" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="5" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="6" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="7" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="8" type="1" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+	<channel name="hidden" id="9" type="4" max_players="10" announce="#AKUMAINBERSIH" ip="127.0.0.1" port="39191"/>
+</list>
